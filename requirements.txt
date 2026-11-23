@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+sqlalchemy
+pandas
+numpy
+python-multipart
+PyJWT
+apscheduler
+httpx
+pytest
+qrcode
+pillow
+prophet
+scikit-learn

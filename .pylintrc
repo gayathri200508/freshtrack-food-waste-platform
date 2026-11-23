@@ -1,0 +1,40 @@
+[MAIN]
+load-plugins = pylint_django
+django-settings-module = config.settings
+ignore = migrations, .venv, venv, build, dist, tests
+ignore-paths = .*/migrations/.*, .*/tests/.*
+
+[MESSAGES CONTROL]
+disable =
+    missing-module-docstring,
+    missing-class-docstring,
+    missing-function-docstring,
+    line-too-long,
+    too-many-lines,
+    too-many-arguments,
+    too-many-locals,
+    too-many-branches,
+    too-many-statements,
+    too-many-instance-attributes,
+    too-few-public-methods,
+    invalid-name,
+    broad-exception-caught,
+    import-error,
+    no-name-in-module,
+    duplicate-code
+
+[FORMAT]
+max-line-length = 120
+
+[DESIGN]
+max-args = 8
+max-locals = 25
+max-returns = 8
+max-branches = 16
+max-statements = 60
+
+[REPORTS]
+output-format = text
+reports = no
+score = yes
+fail-under = 7.0
