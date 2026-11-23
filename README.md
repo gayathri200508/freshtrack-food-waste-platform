@@ -164,7 +164,7 @@ Configuration:
 | M1 · Inventory & expiry tracking | ✅ Complete |
 | M2 · AI waste prediction | ✅ Complete (Prophet + baseline, risk score, reorder) |
 | M3 · Redistribution marketplace & impact | ✅ MVP working end to end |
-| M4 · Final testing, documentation, presentation | 🔄 In progress |
+| M4 · Final testing, documentation, presentation | ✅ Completed |
 
 ---
 
